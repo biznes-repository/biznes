@@ -25,6 +25,7 @@ const Header = () => {
   }
 
   const navItems = [
+    { label: 'What we do', action: () => scrollToSection('services') },
     { label: 'Services', action: () => scrollToSection('services') },
     { label: 'Results', action: () => scrollToSection('results') },
     { label: 'FAQ', action: () => scrollToSection('faq') },
